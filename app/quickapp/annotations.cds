@@ -122,7 +122,7 @@ annotate service.Products with @(
         },
         {
             $Type      : 'UI.DataField',
-            Value      : status.text,
+            Value      : status.code,
             Label      : 'Status',
             Criticality: status.code,
         },

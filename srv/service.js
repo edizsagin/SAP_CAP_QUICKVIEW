@@ -13,17 +13,28 @@ module.exports = class CatalogService extends cds.ApplicationService {
     this.before('SAVE', Products, (req) => {
       req.data.status_code = 2
     });
+    this.on('Send', Products, async (req) => {
 
-    this.on('Send', Products, async req => {
-      const keys = req.params[0];
+    const { ProdID } = req.params[0];
+
       await UPDATE(Products)
-        .set({ status_code: '3' })
-        .where(keys);
+        .set({ status_code: 3 })
+        .where({ ProdID });
 
-      req.info(200, `Product ${keys.ProdID} sent successfully`);
+      req.info(200, `Product ${ProdID} sent successfully`);
 
-      return {};
+      const updated = await SELECT.one.from(Products, p => {
+        p.ProdID,
+          p.name,
+          p.price,
+          p.rating,
+          p.status_code,
+          p.status(s => { s.code, s.text })
+      }).where({ ProdID });
+
+      return updated;
     });
+
     return super.init()
   }
 }
