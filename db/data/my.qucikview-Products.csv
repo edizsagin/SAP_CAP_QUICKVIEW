@@ -1,0 +1,6 @@
+ProdID,name,price,currency_code,supplier_SupID,status_code,rating,createdAt,createdBy,modifiedAt,modifiedBy
+PROD-0001,Organic Olive Oil,120.50,EUR,SUP-0001,3,5,2024-12-02T09:00:00Z,Ediz Sağın,2024-12-02T09:00:00Z,Ediz Sağın
+PROD-0002,Pasta Spaghetti,22.90,EUR,SUP-0002,3,4,2024-12-02T09:05:00Z,Ediz Sağın,2024-12-02T09:05:00Z,Ediz Sağın
+PROD-0003,Tomato Sauce,18.40,TRY,SUP-0003,2,3,2024-12-02T09:10:00Z,Ediz Sağın,2024-12-02T09:10:00Z,Ediz Sağın
+PROD-0004,Cheddar Cheese,75.00,USD,SUP-0004,3,5,2024-12-02T09:15:00Z,Ediz Sağın,2024-12-02T09:15:00Z,Ediz Sağın
+PROD-0005,Orange Juice 1L,11.40,USD,SUP-0005,1,2,2024-12-02T09:20:00Z,Ediz Sağın,2024-12-02T09:20:00Z,Ediz Sağın

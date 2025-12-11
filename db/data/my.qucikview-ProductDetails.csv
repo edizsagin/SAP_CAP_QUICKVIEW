@@ -1,0 +1,6 @@
+ProdID,longDescription,category,brand,stockQuantity,unitOfMeasure,countryOfOrigin,createdAt,createdBy,modifiedAt,modifiedBy
+PROD-0001,Premium cold-pressed organic olive oil suitable for salads and cooking,Oil,Oliviera,150,L,Turkey,2024-12-03T08:00:00Z,Ediz Sağın,2024-12-03T08:00:00Z,Ediz Sağın
+PROD-0002,High quality durum wheat spaghetti ideal for everyday pasta dishes,Pasta,Bella Gusto,500,PCS,Italy,2024-12-03T08:05:00Z,Ediz Sağın,2024-12-03T08:05:00Z,Ediz Sağın
+PROD-0003,Rich tomato sauce made from sun-ripened tomatoes with no preservatives,Sauce,Ege Sun,320,PCS,Turkey,2024-12-03T08:10:00Z,Ediz Sağın,2024-12-03T08:10:00Z,Ediz Sağın
+PROD-0004,Classic mature cheddar cheese with a strong creamy flavor,Dairy,Milko Farm,200,KG,Netherlands,2024-12-03T08:15:00Z,Ediz Sağın,2024-12-03T08:15:00Z,Ediz Sağın
+PROD-0005,Freshly squeezed orange juice with no added sugar,Beverage,SunFresh,400,L,Spain,2024-12-03T08:20:00Z,Ediz Sağın,2024-12-03T08:20:00Z,Ediz Sağın

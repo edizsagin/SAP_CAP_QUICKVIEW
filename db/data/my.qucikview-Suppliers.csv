@@ -1,0 +1,6 @@
+SupID,name,city,phone,createdAt,createdBy,modifiedAt,modifiedBy
+SUP-0001,Fresh Foods Ltd,İstanbul,+90-212-555-1101,2024-12-01T10:00:00Z,Ediz Sağın,2024-12-01T10:00:00Z,Ediz Sağın
+SUP-0002,Golden Taste Co,Ankara,+90-312-555-1102,2024-12-01T10:05:00Z,Ediz Sağın,2024-12-01T10:05:00Z,Ediz Sağın
+SUP-0003,Ege Market,İzmir,+90-232-555-1103,2024-12-01T10:10:00Z,Ediz Sağın,2024-12-01T10:10:00Z,Ediz Sağın
+SUP-0004,Anadolu Trading,Bursa,+90-224-555-1104,2024-12-01T10:15:00Z,Ediz Sağın,2024-12-01T10:15:00Z,Ediz Sağın
+SUP-0005,Sunrise Wholesale,Antalya,+90-242-555-1105,2024-12-01T10:20:00Z,Ediz Sağın,2024-12-01T10:20:00Z,Ediz Sağın
